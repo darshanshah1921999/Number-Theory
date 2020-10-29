@@ -1,0 +1,26 @@
+//13mod7=6
+//41mod7=6
+//means 13,41 are congruent to 7 
+//we can apply addtion ,subtraction and multiplication on modular airthmatic but not apply on division
+
+//observation-a,b are congruent to n => a-b or b-a is devide by n with reminder 0
+//proof:-
+//a = n * k1 + r
+//b = n * k2 + r
+//a-b = n*k1+r - n*k2 -r
+//a-b = n(k1-k2) => a-b is devisiable by n
+//ex-a=12,b=41,mod=7 => a-b=-28 ,b-a = 28 both devisiable 7
+
+
+//a-b = n*k
+//a = n*k + b => 13 = 7*-4 +41 or 41=7*4+13
+
+//conclusion => a,b are congruent to n => a = n*k + b
+
+//devisibility by 9 and 3 => sum of digit is devisiable 3 or 9  the number devisiable by 3 or 9
+
+// if a,b are congruent to n => a^k mod n = b^k mod n
+//ex-(29^10) mod3 => 29%3 = 2 means 29 and 2 are congruent..so we can do (2^10)%3 
+//2^123456789 % 7 =(2^3)41152263 % 7= 8^41152263 %7 ==> 8%7=1 means 1 and 8 are congruent => 1^41152263 %7 =1%7=1
+
+
